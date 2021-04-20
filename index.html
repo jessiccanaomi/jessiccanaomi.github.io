@@ -1,215 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <!--My CSS  -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!--My CSS  -->
-  <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio | Jessicca</title>
+  </head>
 
-  <title>My Portfolio | Jessicca</title>
-</head>
-
-<body id="home">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow fixed-top">
-    <!-- style = "background-color: #000000" -->
-    <div class="container">
-      <a class="navbar-brand" href="#">Jessicca Naomi</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#projects">Project</a>
-          <a class="nav-link" href="#contact">Contact</a>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #6b45c4">
+      <!-- style = "background-color: #000000", bg-primary -->
+      <div class="container">
+        <a class="navbar-brand" href="#">Jessicca Naomi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects">Project</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/pas_foto.jpeg" alt="Jessicca Naomi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Welcome, My Name is Jessicca!</h1>
+      <p class="lead">PROGRAMMER | FRONTEND DESIGNER | UI/UX DESIGNER</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5657b1"
+          fill-opacity="1"
+          d="M0,64L48,101.3C96,139,192,213,288,245.3C384,277,480,267,576,229.3C672,192,768,128,864,101.3C960,75,1056,85,1152,90.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </div>
-  </nav>
+    <!-- akhir jumbotron -->
 
-  <!-- Akhir Navbar -->
-
-  <!-- jumbotron -->
-  <div class="jumbotron text-center">
-    <img src="img/pas_foto.jpeg" alt="Jessicca Naomi" width="200" class="rounded-circle img-thumbnail" />
-    <h1 class="display-4">Welcome, My Name is Jessicca!</h1>
-    <p class="lead">PROGRAMMER | FRONTEND DESIGNER | UI/UX DESIGNER</p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-        d="M0,64L48,101.3C96,139,192,213,288,245.3C384,277,480,267,576,229.3C672,192,768,128,864,101.3C960,75,1056,85,1152,90.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </div>
-  <!-- akhir jumbotron -->
-
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <div class="row text-center mb-3">
-        <div class="col">
-          <h2>About Me</h2>
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-5">
+            <p>
+              Passionate fresh graduate who is seeking a challenging career with a progressive organization that provides an opportunity to capitalize my technical skills & abilities in the field of technology in general, including
+              Information Technology.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>
+              Lulusan baru yang memiliki gairah untuk mencari karir menantang dengan tujuan progresif kedepan yang memberikan kesempatan untuk saya dapat memanfaatkan keterampilan & kemampuan teknis saya di bidang teknologi secara umum,
+              termasuk Teknologi Informasi.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center fs-5 text-center">
-        <div class="col-md-5">
-          <p>
-            Passionate fresh graduate who is seeking a challenging career with a progressive organization that provides
-            an opportunity to capitalize my technical skills & abilities in the field of technology in general,
-            including
-            Information Technology.
-          </p>
-        </div>
-        <div class="col-md-5">
-          <p>
-            Lulusan baru yang memiliki gairah untuk mencari karir menantang dengan tujuan progresif kedepan yang
-            memberikan kesempatan untuk saya dapat memanfaatkan keterampilan & kemampuan teknis saya di bidang teknologi
-            secara umum,
-            termasuk Teknologi Informasi.
-          </p>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffd700" fill-opacity="1"
-        d="M0,224L48,240C96,256,192,288,288,256C384,224,480,128,576,122.7C672,117,768,203,864,224C960,245,1056,203,1152,192C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5657b1"
+          fill-opacity="1"
+          d="M0,224L48,240C96,256,192,288,288,256C384,224,480,128,576,122.7C672,117,768,203,864,224C960,245,1056,203,1152,192C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
 
-  <!-- Akhir About -->
+    <!-- Akhir About -->
 
-  <!-- Project -->
-  <section id="projects">
-    <div class="container">
-      <div class="row text-center mb-3">
-        <div class="col">
-          <h2>My Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project1.jpeg" class="card-img-top" alt="Project1" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
+    <!-- Project -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project2.jpeg" class="card-img-top" alt="Project2" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project1.jpeg" class="card-img-top" alt="Project1" />
+              <div class="card-body">
+                <p class="card-text">In April 2021 I have finished UI/UX Design Music Player for android</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project3.jpg" class="card-img-top" alt="Project3" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project2.jpeg" class="card-img-top" alt="Project2" />
+              <div class="card-body">
+                <p class="card-text">On September 2020, I have finished my first educational virtual reality game. This application contain a lot of medical tools an explain the fungsionality of it</p>
+              </div>
             </div>
           </div>
-        </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project3.jpg" class="card-img-top" alt="Project3" />
+              <div class="card-body">
+                <p class="card-text">Graphic Design using Adobe Ilustrator</p>
+              </div>
+            </div>
+          </div>
 
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project4.jpg" class="card-img-top" alt="Project4" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project4.jpg" class="card-img-top" alt="Project4" />
+              <div class="card-body">
+                <p class="card-text">Graphic Design using Adobe Illustrator</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project5.jpg" class="card-img-top" alt="Project5" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project5.jpg" class="card-img-top" alt="Project5" />
+              <div class="card-body">
+                <p class="card-text">Graphic Design using Adobe Illustrator</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <img src="img/project6.jpg" class="card-img-top" alt="Project6" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/project6.jpg" class="card-img-top" alt="Project6" />
+              <div class="card-body">
+                <p class="card-text">Graphic Design using Adobe Illustrator</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-        d="M0,32L48,42.7C96,53,192,75,288,106.7C384,139,480,181,576,186.7C672,192,768,160,864,170.7C960,181,1056,235,1152,261.3C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- Akhir Project -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5657b1"
+          fill-opacity="1"
+          d="M0,32L48,42.7C96,53,192,75,288,106.7C384,139,480,181,576,186.7C672,192,768,160,864,170.7C960,181,1056,235,1152,261.3C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Project -->
 
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="row text-center mb-3">
-        <div class="col">
-          <h2>Contact Me</h2>
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="name" aria-describedby="name" />
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" />
-            </div>
-            <div class="mb-3">
-              <label for="pesan" class="form-label">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffd700" fill-opacity="1"
-        d="M0,224L80,213.3C160,203,320,181,480,181.3C640,181,800,203,960,197.3C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- Akhir Contact -->
-  <!-- footer -->
-  <footer class="bg-warning text-white text-center pb-3">
-    <p>Created With <i class="bi bi-suit-heart-fill text-danger"></i><a
-        href="https://www.linkedin.com/in/jessicca-naomi-685ab5157/" class="text-white fw-bold"> Jessicca Naomi</a></p>
-  </footer>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#5657b1"
+          fill-opacity="1"
+          d="M0,224L80,213.3C160,203,320,181,480,181.3C640,181,800,203,960,197.3C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+    <!-- footer -->
+    <footer class="bg-warning text-dark text-center pb-3">
+      <p>Created With <i class="bi bi-suit-heart-fill text-danger"></i><a href="https://www.linkedin.com/in/jessicca-naomi-685ab5157/" class="text-dark fw-bold"> Jessicca Naomi</a></p>
+    </footer>
 
-  <!-- Akhir footer -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
-</body>
-
+    <!-- Akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
 </html>
